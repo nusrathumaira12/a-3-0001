@@ -6,34 +6,109 @@
     <title>Pet Shop</title>
     <!-- google font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=ADLaM+Display&display=swap" rel="stylesheet">
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap" rel="stylesheet">
-    <!-- daisyui cdn -->
+<link href="https://fonts.googleapis.com/css2?family=ADLaM+Display&family=Sora:wght@100..800&display=swap" rel="stylesheet">
+    <!-- tailwindcss cdn -->
+    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
-<script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
 
 <style>
-    /* .font-adlam{
-        font-family: "ADLaM Display", serif;
-    } */
-
-body{
+   
+   .font-adlam{
+    font-family: "ADLaM Display", serif;
+}
+.font-sora{
     font-family: "Sora", serif;
 }
 
-h2, h3{
-    font-family: "ADLaM Display", serif;
-}
 </style>
 </head>
-<body>
-    <button class="btn btn-warning">hi</button>
-Hello,I am adlam
-<h2>I m here header</h2>
+<body class="font-sora">
+<header class="pl-4">
+<nav class="bg-orange-100">
+
+</nav>
+<!-- banner start -->
+ <div class="flex md:items-center md:justify-around">
+    <div class="space-y-4">
+<h3 class="text-5xl  font-adlam">Pamper Your Pet,<br> Because They Deserve <br>the Bes</h3>
+<p class="text-sm text-stone-500">Discover a world of treats, toys, and essentials handpicked for your furry friends. Shop now and make tails wag with joy!</p>
+<button class="bg-[#FFDC26] py-2.5 px-7 rounded-lg text-sm">Find a pet</button>
+    </div>
+
+    <!-- image banner -->
+    <div>
+<img src="c1-assets/cat-big.png" alt="">
+    </div>
+ </div>
+</header>
+
+<main>
+<!-- categories section -->
+ <section class="my-12 border-4">
+    
+    <h3 class="text-3xl font-adlam my-5 text-start md:ml-56">Browse By Categories</h3>
+    <!-- card container -->
+    <div class="grid grid-cols-2 md:grid-cols-6 justify-center items-center gap-3 mb-8  w-4/5 mx-auto">
+        <!-- catagory card -->
+         <div class="rounded-xl p-8 bg-[#F9DF8A] flex flex-col justify-center items-center md:w-60 ">
+           
+           <div class="rounded-full h-24 w-24 bg-white flex items-center justify-center mb-4 overflow-hidden"> <img class="h-12 w-12 rounded-full" src="c1-assets/dog-cartoon.png" alt=""></div>
+            <h6 class="font-adlam text-xl">Dog</h6>
+            <p>3 items</p>
+       
+         </div>
+        <!-- catagory card -->
+         <div class="rounded-xl p-8 bg-[#F9DF8A] flex flex-col justify-center items-center md:w-60">
+           
+           <div class="rounded-full h-24 w-24 bg-white flex items-center justify-center mb-4"> <img class="h-12 w-12 rounded-full" src="c1-assets/fish-cartoon.png" alt=""></div>
+            <h6 class="font-adlam text-xl">Dog</h6>
+            <p>3 items</p>
+       
+         </div>
+        <!-- catagory card -->
+         <div class="rounded-xl p-9 bg-[#F9DF8A] flex flex-col justify-center items-center md:w-60">
+           
+           <div class="rounded-full h-24 w-24 bg-white flex items-center justify-center mb-4"> <img class="h-12 w-12 rounded-full" src="c1-assets/cat-cartoon.png" alt=""></div>
+            <h6 class="font-adlam text-xl">Cat</h6>
+            <p>3 items</p>
+       
+         </div>
+        <!-- catagory card -->
+         <div class="rounded-xl p-9 bg-[#F9DF8A] flex flex-col justify-center items-center md:w-60">
+           
+           <div class="rounded-full h-24 w-24 bg-white flex items-center justify-center mb-4"> <img class="h-12 w-12 rounded-full" src="c1-assets/bird-cartoon.png" alt=""></div>
+            <h6 class="font-adlam text-xl">Birds</h6>
+            <p>3 items</p>
+       
+         </div>
+        <!-- catagory card -->
+         <div class="rounded-xl p-9 bg-[#F9DF8A] flex flex-col justify-center items-center md:w-60">
+           
+           <div class="rounded-full h-24 w-24 bg-white flex items-center justify-center mb-4"> <img class="h-12 w-12 rounded-full" src="c1-assets/cute-pet-small.png" alt=""></div>
+            <h6 class="font-adlam text-xl">Small pet</h6>
+            <p>3 items</p>
+       
+         </div>
+        <!-- catagory card -->
+         <div class="rounded-xl p-9 bg-[#F9DF8A] flex flex-col justify-center items-center md:w-60">
+           
+           <div class="rounded-full h-24 w-24 bg-white flex items-center justify-center mb-4"> <img class="h-12 w-12 rounded-full" src="c1-assets/rabbit-cartoon.png" alt=""></div>
+            <h6 class="font-adlam text-xl">Rabbit</h6>
+            <p>3 items</p>
+       
+         </div>
+    </div>
+ </section>
+</main>
+
+<footer>
+
+</footer>
+                                
+                
+
 
 </body>
 </html>
